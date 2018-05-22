@@ -29,6 +29,9 @@ class Play extends React.Component {
   render() {
     return (
       <button className="play">
+        <label>
+          Play:
+        </label>
       </button>
     );
   }

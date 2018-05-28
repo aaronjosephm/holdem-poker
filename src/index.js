@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import card from './red_back.png';
-import image from './pokerTable.png';
+
 import BackgroundImage from 'react-background-image-loader';
 
 
 class Game extends React.Component {
   render() {
     return (
-      <BackgroundImage src={image}>
+      <div className="body">
       <div>
           <h1 className="title">Welcome to Texas Hold em.</h1>
           <div className="game">
@@ -20,7 +20,8 @@ class Game extends React.Component {
             </div>
           </div>
       </div>
-      </BackgroundImage>
+      
+      </div>
     );
   }
 }

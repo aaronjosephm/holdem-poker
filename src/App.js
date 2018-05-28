@@ -6,7 +6,9 @@ import image from './pokerTable.png';
 
 var styles = {
   color: 'violet',
-  backgroundImage: 'url('+image+')'
+  backgroundImage: 'url('+image+')',
+  backgroundSize: 'cover',
+  overflow: 'hidden'
 };
 
 class App extends Component {

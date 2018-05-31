@@ -4,6 +4,7 @@
   font-family: sans-serif;
   background-image: url("pokerTable.png");
   background-size: cover;
+  padding-bottom: 200px;
 }
 
 .dealer-cards {
